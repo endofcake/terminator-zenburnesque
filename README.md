@@ -6,13 +6,13 @@ A colour theme inspired by Zenburnesque colour theme for Sublime Text.
 
 ### If you don't have a config file for Terminator
 
-1. Create a config directory for Terminator if one doesn't exist already:
+1. Create a config directory for Terminator:
 
     `mkdir -p ~/.config/terminator/`
 
 2. Clone this repository:
 
-    `git clone git@github.com:endofcake/terminator-zenburnesque.git`
+    `git clone https://github.com/endofcake/terminator-zenburnesque.git`
 
 3. Copy the config file:
 
@@ -37,9 +37,9 @@ Copy this profile section to it:
     ```
 
 ### Useful shortcuts
-Alt + A --- broadcast commands to all Terminator panes
-Alt + G --- broadcast commands to all panse in a selected group
-Alt + C --- stop broadcasting commands
++ Alt + A --- broadcast commands to all Terminator panes
++ Alt + G --- broadcast commands to all panes in a selected group
++ Alt + C --- stop broadcasting commands
 
 ### Screenshot
 
