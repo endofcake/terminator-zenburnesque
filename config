@@ -1,0 +1,44 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#d30102"
+  handle_size = 1
+  focus = system
+[keybindings]
+  broadcast_all = <Alt>a
+  broadcast_group = <Alt>g
+  new_terminator = <Primary><Shift>n
+  ungroup_all = <Primary><Shift>g
+  broadcast_off = <Alt>c
+[profiles]
+  [[zenburn]]
+    scrollbar_position = hidden
+    palette = "#53dccd:#ff8080:#22c0ff:#ffcc66:#6f906c:#ffffa0:#ffcc66:#acc1ac:#000000:#ed0b0b:#9393cc:#ff5cbf:#cae682:#5c80ff:#8acccf:#56ed0b"
+    cursor_shape = ibeam
+    use_system_font = False
+    cursor_color = "#ffdf6c"
+    foreground_color = "#dededb"
+    show_titlebar = False
+    font = Ubuntu Mono 14
+    background_color = "#404040"
+    scrollback_infinite = True
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#53dccd:#ff8080:#22c0ff:#ffcc66:#6f906c:#ffffa0:#ffcc66:#acc1ac:#000000:#ed0b0b:#9393cc:#ff5cbf:#cae682:#5c80ff:#8acccf:#56ed0b"
+    cursor_shape = ibeam
+    use_system_font = False
+    cursor_color = "#ffdf6c"
+    foreground_color = "#dededb"
+    show_titlebar = False
+    font = Ubuntu Mono 14
+    background_color = "#404040"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
